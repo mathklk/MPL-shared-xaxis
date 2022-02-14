@@ -1,4 +1,4 @@
-
+from typing import *
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
 
@@ -77,7 +77,6 @@ def mpl_shared_xaxis(y0: List[float], *args, yLabels: List[str] = None, colors: 
 
 
 if __name__ == "__main__":
-	from typing import *
 	import tkinter as tk
 	from tkinter.filedialog import askopenfilename
 	import csv
